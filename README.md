@@ -10,7 +10,7 @@
      | 用户  | AliyunDNSFullAccess  |系统策略 | 管理云解析（DNS）的权限|
      | 用户  |  AliyunDomainFullAccess  |系统策略 | 管理域名服务的权限|
 ## 编译环境配置
-- 下载golang1.13以后版本，配置golang开发环境，执行go get
+- 下载golang1.13以后版本，配置golang开发环境，在工程根目录执行go get
 - 配置编译目标的运行环境
     - linux环境: <br/>Set GOOS=linux
     - windows环境: <br/>Set GOOS=windows
