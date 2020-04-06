@@ -25,3 +25,8 @@
 ## 运行
 sudo crontab -e 写入以下内容,意思是每５分钟运行一次程序
 /5 * curl -4 /path-to/aliddns
+
+## FAQ
+有问题，请联系:
+邮箱:8980728@qq.com<br>
+微信:![](./wechat.png)
