@@ -24,7 +24,7 @@
 
 ## 运行
 sudo crontab -e 写入以下内容,意思是每５分钟运行一次程序，并把结果写入到同级目录下的log.log中<br/>
-*/5 * * * *  /path-to/aliddns >> /path-to/log.log
+*/5 * * * *  /path-to/run.sh
 
 ## FAQ
 有问题，请联系:<br/>
