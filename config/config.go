@@ -3,17 +3,19 @@ package config
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 	"github.com/folk113/aliddns/log"
 	"io/ioutil"
+	"os"
 )
 
 var AliAccessConfig = &Config{}
 var Log *log.Logger
 
-func init() {
+func Init(projectPath string) {
 	Log = log.NewLogger()
-
-	data, err := ioutil.ReadFile("./config/config.json")
+	path := fmt.Sprintf("%s%cconfig%c", projectPath, os.PathSeparator,os.PathSeparator)
+	data, err := ioutil.ReadFile(path + "config.json")
 	if err != nil {
 		panic(err)
 	}
