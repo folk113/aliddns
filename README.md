@@ -4,10 +4,11 @@
 - 拥有阿里云域名
 - 拥有动态外网IP地址
 - 阿里云创建RAM用户访问控制权限，要达到在Ram访问控制/授权中看到以下４栏内容，否则可能出现更新错误的问题
-      RAM角色  AliyunDNSFullAccess  系统策略  管理云解析（DNS）的权限   
-      RAM角色  AliyunDomainFullAccess  系统策略  管理域名服务的权限
-      AliyunDNSFullAccess  系统策略  管理云解析（DNS）的权限
-      AliyunDomainFullAccess  系统策略  管理域名服务的权限
+  |RAM角色 | AliyunDNSFullAccess  |系统策略 | 管理云解析（DNS）的权限|  
+     | -----  | ---- |---- | ---- |
+     | RAM角色  |AliyunDomainFullAccess  |系统策略  |管理域名服务的权限|
+     | 用户  | AliyunDNSFullAccess  |系统策略 | 管理云解析（DNS）的权限|
+     | 用户  |  AliyunDomainFullAccess  |系统策略 | 管理域名服务的权限|
 ## 编译环境配置
 - 下载golang1.13以后版本，配置golang开发环境，执行go get
 - 配置编译目标的运行环境
