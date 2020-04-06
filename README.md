@@ -24,7 +24,7 @@
 
 ## 运行
 sudo crontab -e 写入以下内容,意思是每５分钟运行一次程序<br/>
-/5 * curl -4 /path-to/aliddns
+/5 * /path-to/aliddns
 
 ## FAQ
 有问题，请联系:<br/>
