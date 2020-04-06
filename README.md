@@ -23,8 +23,8 @@
 把config目录下的config.sample.json文件改名config.json，并在里面添加相应的字段，具体内容不做解释
 
 ## 运行
-sudo crontab -e 写入以下内容,意思是每５分钟运行一次程序<br/>
-/5 * /path-to/aliddns
+sudo crontab -e 写入以下内容,意思是每５分钟运行一次程序，并把结果写入到同级目录下的log.log中<br/>
+*/5 * * * *  /path-to/aliddns >> /path-to/log.log
 
 ## FAQ
 有问题，请联系:<br/>
