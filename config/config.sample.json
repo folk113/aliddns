@@ -1,0 +1,10 @@
+{
+  "REGION": "cn-hangzhou",
+  "ACCESS_KEY_ID": "",
+  "ACCESS_KEY_SECRET": "",
+  "DOMAIN": "", //域名
+  "RRList": [
+    "@",
+    "*"
+  ]
+}
