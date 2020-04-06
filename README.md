@@ -12,10 +12,10 @@
 ## 编译环境配置
 - 下载golang1.13以后版本，配置golang开发环境，执行go get
 - 配置编译目标的运行环境
-    - linux环境: Set GOOS=linux
-    - windows环境: Set GOOS=windows
-    - CPU指令集：arm: Set GOARCH=arm
-                 x86-64: Set GOARCH=amd64
+    - linux环境: <br/>Set GOOS=linux
+    - windows环境: <br/>Set GOOS=windows
+    - CPU指令集：<br/>arm: Set GOARCH=arm
+                 <br/>x86-64: Set GOARCH=amd64
 
     - 最后执行go build即可
     
