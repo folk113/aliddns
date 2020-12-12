@@ -14,7 +14,7 @@ type IpAddress struct {
 }
 
 func GetIp() (string, error) {
-	url := "https://jsonip.com/"
+	url := "https://ipv4.jsonip.com"
 	request, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		config.Log.Error(err)
