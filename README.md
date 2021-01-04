@@ -14,9 +14,8 @@
 
 - 配置编译目标的运行环境
     > 以下为windos编译环境，如果在类bsd unix环境下编译，把Set换成export
-    - 目标程序在linux上运行: <br/>Set GOOS=linux
-	- 目标程序在windows上运行: <br/>Set GOOS=windows
-    - 目标程序使用的CPU指令集：<br/>arm: Set GOARCH=arm
+    - 目标程序运行环境: <br/>linux:Set GOOS=linux<br/>windows:Set GOOS=windows
+	- 目标程序使用的CPU指令集：<br/>arm: Set GOARCH=arm
                  <br/>x86-64: Set GOARCH=amd64
     - 最后执行go build即可
     
